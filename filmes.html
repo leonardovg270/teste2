@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleInicio.css">
+    <link rel="stylesheet" href="animation.css">
+    <title>Spider-Flix</title>
+    <link rel="shortcut icon" type="imagex/png" href="icone.ico">
+</head>
+
+<body>
+    <ul>
+        <header>
+            <nav>
+
+                <!--    Cabeçalho da Página   -->
+                <h2><strong>Spider-</strong>Flix</h2>
+                <ul>
+                    <li id="inicio"><a href="index.html">Início</a></li>
+                    <li id="filmes"><a href="filmes.html">Filmes</a></li>
+                    <li id="series"><a href="series.html">Séries</a></li>
+                    <li><input type="text" placeholder=" Pesquisar" class="pesquisar"></li>
+                    <li id="suporte"><a onclick="playAudio()">Suporte</a></li>
+                    <audio id="meuAudio">
+                        <source src="quem-disse-que-e-problema-meu-estourado-128-ytshorts.savetube.me.mp3"
+                            type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="slide">
+                <img src="slideFotos/slide1.jpg" alt="">
+                <img src="slideFotos/slide2.jpeg" alt="">
+            </div>
+
+            <!--    Lista dos Filmes    -->
+            <h2>Filmes</h2>
+            <section class="filmes">
+                <ul>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <!--  Capa do Filme  -->
+                                <img src="capaFilmes/Spide-Man_Poster.jpg" alt="homemaranha1">
+                                <!--  Sinopse  -->
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Depois de ser picado por uma aranha geneticamente
+                                        modificada em uma demonstração científica, o jovem nerd Peter Parker ganha
+                                        superpoderes. Inicialmente, ele pretende usá-los para para ganhar dinheiro,
+                                        adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém,
+                                        ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide
+                                        não mais usar seus poderes para proveito próprio e sim para enfrentar o mal,
+                                        tendo como seu primeiro grande desafio o psicótico Duende Verde.</p>
+                                </div>
+                                <!--  Botão do Trailer  -->
+                                <div class="trailer">
+                                    <a href="https://www.youtube.com/watch?v=t06RUxPbp_c&pp=ygUbdHJhaWxlciBob21lbSBhcmFuaGEgMSAyMDAy"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <!--  Botão para "Assistir" ou mandar pro cadastro  -->
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/homemaranha2.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>O Dr. Otto Octavius é transformado em Doutor Octopus
+                                        quando uma falha em uma experiência de fusão nuclear resulta em uma explosão que
+                                        mata sua esposa. Ele culpa o Homem-Aranha pelo acidente e deseja vingança.
+                                        Enquanto isso, o alter ego do herói, Peter Parker, perde seus poderes. Para
+                                        complicar as coisas, o seu melhor amigo odeia o Homem-Aranha e sua amada fica
+                                        noiva.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=1UAzz8ncM68&pp=ygUcdHJhaWxlciBob21lbSBhcmFuaGEgMiAyMDA0IA%3D%3D"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/Spider-Man_3.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>O relacionamento entre Peter Parker e Mary Jane
+                                        parece estar dando certo, mas outros problemas começam a surgir. A roupa de
+                                        Homem-Aranha torna-se preta e acaba controlando Peter - apesar de aumentar seus
+                                        poderes, ela revela e amplia o lado obscuro de sua personalidade. Com isso, os
+                                        vilões Venom e Homem-Areia tentam destruir o herói.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=wPosLpgMtTY&pp=ygUbdHJhaWxlciBob21lbSBhcmFuaGEgMyAyMDA3"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/espetacularha.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>O jovem Peter Parker quer saber mais sobre sua
+                                        origem. Ele encontra uma pasta que pertenceu ao seu pai e tenta descobrir por
+                                        que seus pais desapareceram. A sua busca o leva a Oscorp e ao dr. Curt Connors,
+                                        que tem como alter ego o letal Lagarto.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=6nzNdpJ3qMo&pp=ygUhdHJhaWxlciBlc3BldGFjdWxhciBob21lbSBhcmFuaGEg"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/espetacularha2.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>O jovem Peter Parker está fascinado com as
+                                        habilidades que adquiriu como Homem-Aranha. Agora, ele precisa lidar com dois
+                                        problemas: o retorno de um velho amigo, Harry Osborn, e a chegada de um vilão
+                                        mais forte e poderoso, Electro.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=PfUDLzyC1cM&pp=ygUidHJhaWxlciBlc3BldGFjdWxhciBob21lbSBhcmFuaGEgMg%3D%3D"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/devoltaaolar.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Depois de lutar ao lado dos Vingadores, chegou a
+                                        hora do jovem Peter Parker voltar para casa em Nova York ao lado de sua tia May.
+                                        Sob o olhar atento do mentor Tony Stark, Peter começa a abraçar sua nova
+                                        identidade como Homem-Aranha e combate diariamente pequenos crimes nas
+                                        redondezas. Ele acredita que encontrou a missão de sua vida quando o terrível
+                                        vilão Abutre surge ameaçando a cidade. O problema é que a tarefa não será tão
+                                        fácil como ele imaginava.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=2x-2iYxgMFU&pp=ygUkdHJhaWxlciBob21lbSBhcmFuaGEgZGUgdm9sdGEgYW8gbGFy"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/longedecasa.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Peter Parker está em uma viagem de duas semanas pela
+                                        Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de
+                                        Nick Fury. Convocado para mais uma missão heroica, ele precisa enfrentar vários
+                                        vilões que surgem em cidades-símbolo do continente, como Londres, Paris e
+                                        Veneza, e também a aparição do enigmático Mysterio.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=vaw_8DoqXfk&pp=ygUhdHJhaWxlciBob21lbSBhcmFuaGEgbG9uZ2UgZG8gbGFy"
+                                        target="_blank">Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/semvoltaparacasa.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Peter Parker tem a sua identidade secreta revelada e
+                                        pede ajuda ao Doutor Estranho. Quando um feitiço para reverter o evento não sai
+                                        como o esperado, o Homem-Aranha e seu companheiro dos Vingadores precisam
+                                        enfrentar inimigos de todo o multiverso.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=CyiiEJRZjSU&pp=ygUodHJhaWxlciBob21lbSBhcmFuaGEgc2VtIHZvbHRhIHBhcmEgY2FzYQ%3D%3D"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/noaranhaverso.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Após ser atingido por uma teia radioativa, Miles
+                                        Morales, um jovem negro do Brooklyn, se torna o Homem-Aranha, inspirado no
+                                        legado do já falecido Peter Parker. Entretanto, ao visitar o túmulo de seu ídolo
+                                        em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter,
+                                        vestindo o traje do herói por baixo de um sobretudo. A surpresa fica ainda maior
+                                        quando Miles descobre que ele veio de uma dimensão paralela, assim como outras
+                                        versões do Homem-Aranha.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=SS6ABPkfmBE&pp=ygUjdHJhaWxlciBob21lbSBhcmFuaGEgbm8gYXJhbmhhdmVyc28%3D"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaFilmes/atraves.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Depois de se reunir com Gwen Stacy, Homem-Aranha é
+                                        jogado no multiverso, onde ele encontra uma equipe encarregada de proteger sua
+                                        própria existência.</p>
+                                </div>
+                                <div class="trailer">
+                                    <a href=" https://www.youtube.com/watch?v=_4is7I_ZxTg&pp=ygUldHJhaWxlciBob21lbSBhcmFuaGEgbm8gYXJhbmhhdmVyc28gMg%3D%3D"
+                                        target="_blank">▶ Trailer</a>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <!--      Rodapé da Página    -->>
+        <footer>
+            <h5>Esse site pertence ao Spiderflix ©️</h5>
+        </footer>
+
+        <!--      Script para funcionar o audio do suporte    -->
+        <script>
+            function playAudio() {
+                var audio = document.getElementById("meuAudio");
+                audio.play();
+            }
+        </script>
+</body>
+
+</html>

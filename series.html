@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleInicio.css">
+    <link rel="stylesheet" href="animation.css">
+    <title>Spider-Flix</title>
+    <link rel="shortcut icon" type="imagex/png" href="icone.ico">
+</head>
+
+<body>
+    <ul>
+        <header>
+            <nav>
+
+                <!--    Cabeçalho da Página   -->
+                <h2><strong>Spider-</strong>Flix</h2>
+                <ul>
+                    <li id="inicio"><a href="index.html">Início</a></li>
+                    <li id="filmes"><a href="filmes.html">Filmes</a></li>
+                    <li id="series"><a href="series.html">Séries</a></li>
+                    <li><input type="text" placeholder=" Pesquisar" class="pesquisar"></li>
+                    <li id="suporte"><a onclick="playAudio()">Suporte</a></li>
+                    <audio id="meuAudio">
+                        <source src="quem-disse-que-e-problema-meu-estourado-128-ytshorts.savetube.me.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="slide">
+                <img src="slideFotos/slide1.jpg" alt="">
+                <img src="slideFotos/slide2.jpeg" alt="">
+            </div>
+
+        
+            <!--    Lista das Séries    -->
+            <h2>Séries</h2>
+            <section class="filmes">
+                <ul>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaSeries/Homemaranha1serie.webp" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Em um minuto ele é Peter Parker, o estudante
+                                        universitário, e no outro, o Homem Aranha.</p>
+                                    <h3>5 temporadas</h3>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaSeries/seriehomemaranha2.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Peter Parker faz malabarismo para lidar com os
+                                        problemas na escola e ser um super-herói.</p>
+                                    <h3>4 temporadas</h3>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaSeries/seriehomemaranha3.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Peter Parker e seus amigos Miles Morales, Gwen,
+                                        Hulk, Pantera Negra e Miss Marvel trabalham juntos para derrotar as
+                                        forças do mal e aprender que o trabalho em equipe é a melhor maneira de salvar o
+                                        dia.</p>
+                                    <h3>2 temporadas</h3>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaSeries/seriehomemaranha4.jpg" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Peter Parker luta com a vida dupla que leva na
+                                        escola e esconde sua identidade secreta de todos, incluindo seu melhor
+                                        amigo Harry Osborn.</p>
+                                    <h3>3 temporadas</h3>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <div class="ha1">
+                                <img src="capaSeries/seriehomemaranha5.webp" alt="homemaranha1">
+                                <div class="sinopse">
+                                    <p><strong>SINOPSE:</strong><br>Peter Parker é um estudante universitário que possui
+                                        habilidades de um super-herói. Ele comabte o crime na cidade de
+                                        Nova York enquanto tenta ter uma vida de uma pessoa normal.</p>
+                                    <h3>1 temporada</h3>
+                                </div>
+                                <div class="assistir">
+                                    <a href="cadastro.html">▶ Assistir</a>
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <!--      Rodapé da Página    -->>
+        <footer>
+            <h5>Esse site pertence ao Spiderflix ©️</h5>
+        </footer>
+
+        <!--      Script para funcionar o audio do suporte    -->
+        <script>
+            function playAudio() {
+                var audio = document.getElementById("meuAudio");
+                audio.play();
+            }
+        </script>
+</body>
+
+</html>

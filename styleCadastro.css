@@ -1,0 +1,105 @@
+  html {
+    background-color: black;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  img {
+    width: 310px;
+    height: 500px;
+    margin-top: -75px;
+    margin-left: 300px;
+    position:absolute;
+  }
+
+  h1 {
+    margin-top: -10px;
+    color: white;
+  }
+
+  h1 strong {
+    margin-top: -10px;
+    color: rgb(190, 0, 0);
+  }
+
+  .container {
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(15, 25, 103);
+    border-color: rgb(190, 0, 0);
+    margin-top: 140px;
+    margin-right: 350px;
+  }
+  
+  .titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+  }
+  
+  #name {
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    block-size: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+  }
+
+  #cpf {
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    block-size: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+  }
+  
+  #email {
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    block-size: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+  }
+  
+  
+  #password {
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    block-size: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+  }
+  
+  #cd {
+    margin-top: 20px;
+    width: 400px;
+    border-width: 0px;
+    block-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(180, 16, 16);
+    color: white;
+    cursor: pointer;
+  }
+
+  .voltar {
+    text-decoration: none;
+  }
+
+  .voltar h1 {
+    background-color: rgb(15, 25, 103);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+  }
+  
